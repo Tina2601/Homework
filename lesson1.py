@@ -11,5 +11,5 @@ d = int((c) * 3)
 print(int(b),(c),(d))
 # or open answer:
 print("Nun of students in every class:" + str(b), "Desks in every class:" + str(c), "Desks for all 3 classes:" + str(d))
-#question: why the clss 'int' was saved? -
+#question: why the class 'int' was saved? -
 print((a), type(a))
