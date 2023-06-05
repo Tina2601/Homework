@@ -15,7 +15,7 @@ print("Nun of students in every class:" + str(b), "Desks in every class:" + str(
 print((a), type(a))
 
 
-
+# 1 possible :
 n1 = 123
 reversed = int(str(n1)[:: -1])
 print(reversed)
@@ -28,3 +28,14 @@ n3 = 374
 reversed = int(str(n3)[:: -1])
 print(reversed)
 
+# 2 possible :
+n1 = (input("Please, enter a number: "))
+reversed = int(str(n1) [:: -1])
+print(reversed)
+
+# 3 possible :
+n = int(input("enter a numder:  ") [:: -1])
+print(n)
+# 3 possible with word :
+n = str(input("enter a word:  ") [:: -1])
+print(n)
