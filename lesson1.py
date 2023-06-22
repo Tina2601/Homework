@@ -41,4 +41,10 @@ n = str(input("enter a word:  ") [:: -1])
 print(n)
 
 #EX 6:
+n = int(input('Enter a number: '))
+i = 1
+while i ** 2 <= n:
+    print(i ** 2)
+    i += 1
+
 
