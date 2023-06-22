@@ -41,44 +41,4 @@ n = str(input("enter a word:  ") [:: -1])
 print(n)
 
 #EX 6:
-a = [1, 4, 9, 16, 25, 36, 49]
-n = 50
-if n <= 50:
-    n = a.sort()
-print(a)
 
-a = [1, 4, 9]
-n = 10
-if n <= 10:
-    n = a.sort()
-print(a)
-
-a = [1, 4, 9]
-n = 9
-if n <= 9:
-    n = a.sort()
-print(a)
-
-a = [1, 4]
-n = 4
-if n <= 4:
-    n = a.sort()
-print(a)
-
-a = [1]
-n = 1
-if n <= 1:
-    n = a.sort()
-print(a)
-
-a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
-n = 100
-if n <= 100:
-    n = a.sort()
-print(a)
-
-a = [1, 4, 9, 16, 25, 36, 49, 64, 81]
-n = 99
-if n <= 99:
-    n = a.sort()
-print(a)
