@@ -28,19 +28,20 @@ n3 = 374
 reversed = int(str(n3)[:: -1])
 print(reversed)
 
-# 2 possible :
+# 2 possible with enter:
 n1 = (input("Please, enter a number: "))
 reversed = int(str(n1) [:: -1])
 print(reversed)
 
-# 3 possible :
+# 3 possible one line :
 n = int(input("enter a numder:  ") [:: -1])
 print(n)
 # 3 possible with word :
 n = str(input("enter a word:  ") [:: -1])
 print(n)
 
-#EX 6:
+
+#EX 6: Квадрати натуральних чисел
 n = int(input('Enter a number: '))
 i = 1
 while i ** 2 <= n:
@@ -48,3 +49,15 @@ while i ** 2 <= n:
     i += 1
 
 
+#EX 7 : Рядок \ визначити кількість слів
+sentence = input('')
+word_count = sentence.count(' ')
+print(word_count)
+
+# possible 2 with split\ len - рахує пробіли !
+sentence = input('')
+word_count = sentence.split(' ')
+print(len(word_count))
+# one line : - рахує пробіли !
+sentence = input('')
+print(len(sentence.split(' ')))
