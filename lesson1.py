@@ -41,13 +41,13 @@ n = str(input("enter a word:  ") [:: -1])
 print(n)
 
 
+
 #EX 6: Квадрати натуральних чисел
 n = int(input('Enter a number: '))
 i = 1
 while i ** 2 <= n:
     print(i ** 2)
     i += 1
-
 
 #EX 7 : Рядок \ визначити кількість слів
 sentence = input('')
@@ -67,3 +67,15 @@ s = (input('Enter a sentence: '))
 ch = (input('Enter a symbol: '))
 if ch in s:
     print(s.find(ch), s.rfind(ch))
+
+#EX 9: Рядок та зрізи
+string = input('Enter a sentence: ')
+print(string[2]) # виводимо третій символ
+print(string[-2]) # виводимо передостанній символ
+print(string[0:6]) # виводимо перші 5 символів
+print(string[:-2])  # виводимо всі символи окрім двох останніх
+print(string[0::2]) # виводимо всі символи з парними індексами
+print(string[1::2]) # виводимо всі символи з непарними індексами
+print(string[::-1]) # виводимо всі символи у зворотньому напрямку
+print(string[::-2]) # виводимо всі символи у зворотньому напрямку через одну
+print(len(string)) # виводимо довжину рядка
