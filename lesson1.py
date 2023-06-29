@@ -61,3 +61,9 @@ print(len(word_count))
 # one line : - рахує пробіли !
 sentence = input('')
 print(len(sentence.split(' ')))
+
+#EX 8: Пошук символа у рядку
+s = (input('Enter a sentence: '))
+ch = (input('Enter a symbol: '))
+if ch in s:
+    print(s.find(ch), s.rfind(ch))
